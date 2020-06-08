@@ -2,12 +2,7 @@ name: Deploy Website
 
 on: [push]
   branches: [master]
-
-
-
-
-
-  jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
     name: Deploying to surge
