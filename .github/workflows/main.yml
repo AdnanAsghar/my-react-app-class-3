@@ -1,7 +1,9 @@
-name: "Deploy Website"
+name: Deploy Website
 
 on: [push]
-jobs:
+  branches: [master]
+
+  jobs:
   build:
     runs-on: ubuntu-latest
     name: Deploying to surge
